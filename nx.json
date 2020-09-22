@@ -21,5 +21,19 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "employees": {
+      "tags": []
+    },
+    "employees-e2e": {
+      "tags": [],
+      "implicitDependencies": ["employees"]
+    },
+    "employee": {
+      "tags": []
+    },
+    "ui": {
+      "tags": []
+    }
+  }
 }
